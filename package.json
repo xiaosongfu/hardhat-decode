@@ -1,6 +1,6 @@
 {
   "name": "hardhat-decode",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Hardhat plugin for decode every thing with abi",
   "repository": "github:xiaosongfu/hardhat-decode",
   "author": "xiaosongfu",

@@ -40,7 +40,7 @@ decode
             );
 
             console.log(errorSignature);
-            for (const r of result.toArray()) {
+            for (const r of result.values()) {
               console.log("  >>> ", r.toString());
             }
 
@@ -80,7 +80,8 @@ decode
               topics,
             );
 
-            for (const r of result.toArray()) {
+            console.log(eventSignature);
+            for (const r of result.values()) {
               console.log("  >>> ", r.toString());
             }
 
@@ -123,7 +124,7 @@ decode
             );
 
             console.log(functionSignature);
-            for (const r of result.toArray()) {
+            for (const r of result.values()) {
               console.log("  >>> ", r.toString());
             }
 
@@ -168,7 +169,7 @@ decode
             );
 
             console.log(functionSignature);
-            for (const r of result.toArray()) {
+            for (const r of result.values()) {
               console.log("  >>> ", r.toString());
             }
 
